@@ -36,3 +36,4 @@ jobs:
         name: Test Results
         path: target/surefire-reports/
         overwrite: true
+        compression-level: 0
