@@ -13,7 +13,7 @@ public class BaseTest
     @BeforeClass
     public void setUp() {
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless"); // Run in headless mode
+        options.addArguments("--headless=new"); // Run in headless mode
         options.addArguments("--window-size=1920,1080");
         driver = new ChromeDriver(options);
     }
