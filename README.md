@@ -1,3 +1,5 @@
+[![Java CI with Maven](https://github.com/eric-g/selenium_demo/actions/workflows/github-actions.yml/badge.svg)](https://github.com/eric-g/selenium_demo/actions/workflows/github-actions.yml)
+
 # WebDriver Demo Project
 A simple Selenium WebDriver project demonstrating page object model and GitHub Actions.
 
