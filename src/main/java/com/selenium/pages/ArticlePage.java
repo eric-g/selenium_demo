@@ -20,7 +20,7 @@ public class ArticlePage
     public ArticlePage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(this.driver, this);
-        this.wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     }
 
     public String getHeadline() {

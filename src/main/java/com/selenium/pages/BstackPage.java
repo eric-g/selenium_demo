@@ -88,7 +88,7 @@ public class BstackPage {
             for (int i = 0; i <= clickResult; i++) {
                 searchAutocomplete = driver.switchTo().activeElement();
                 searchAutocomplete.sendKeys(Keys.ARROW_DOWN);
-                Thread.sleep(500); // todo: find better wait for the autocomplete to update
+                Thread.sleep(600); // todo: find better wait for the autocomplete to update
             }
             
             WebElement searchResult = getSearchResultN(clickResult);
