@@ -3,7 +3,7 @@
 # WebDriver Demo Project
 A simple Selenium WebDriver project demonstrating page object model and GitHub Actions.
 
-## Project
+## Project Details
 
 `src/test/java/tests/AppTest.java`
 
@@ -19,6 +19,10 @@ A simple Selenium WebDriver project demonstrating page object model and GitHub A
 `src/main/java/pages`
 
 - Models of Browserstack and Article pages.
+
+### CI/CD & Reporting 
+- Github Actions enabled (manual at this time) to build and execute test(s) via Maven upon commit/merge PR.
+- Allure test result report is published to https://eric-g.github.io/selenium_demo
 
 ### Dependencies
 
