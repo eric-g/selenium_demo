@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Jun 30 15:53:54 GMT 2025","Mon Jun 30 15:54:03 GMT 2025","9321","Suite1","Regression1","com.selenium.tests.AppTest","com.selenium.tests.AppTest","doSomeTesting","doSomeTesting",""
